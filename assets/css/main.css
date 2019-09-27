@@ -1,0 +1,38 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;  
+}
+
+body{
+    display: grid;
+    background-color: #eeeeee;
+    padding: 0 200px;
+    grid-template-rows:80px auto  80px;
+    min-height: 100vh; 
+}
+
+header ,footer{
+    background-color: turquoise;
+}
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(10,255,10,0.4);
+    border-bottom: solid 1px rgb(10,255,10);
+    z-index:9999;
+}
+footer{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding:0 15px;
+    background-color:#ccc;
+}
